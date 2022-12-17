@@ -1,0 +1,10 @@
+<%- include('./partials/header') %> 
+    <div class="main">
+        <%if(locals.user){%>
+            <h3>Welcome,<%- user.username%>  </h3>
+            
+        <%}else{%>
+            <p>no user</p>
+        <%}%>
+    </div>
+<%- include('./partials/footer') %> 

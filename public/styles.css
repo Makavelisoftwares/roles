@@ -9,3 +9,81 @@ body{
     background-color: #eee;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.sidebar{
+    background-color: #000;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 50px 0;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main{
+    margin-left: 20%;
+    padding: 10px;
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+}
+
+.form input{
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+}
+
+.form .register{
+    background-color: greenyellow;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form .login{
+    background-color: red;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form a{
+    margin-top: 10px;
+}
